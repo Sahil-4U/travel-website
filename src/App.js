@@ -7,7 +7,7 @@ import Ports from "./components/routes/Ports";
 function App() {
   return (
     <div>
-      <Navbar />
+
       <Ports />
     </div>
   );
