@@ -3,7 +3,16 @@
   height: 100vh;
   position: relative;
 }
-
+.hero-mid{
+   width: 100%;
+  height: 70vh;
+  position: relative;
+}
+.hero-mid img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .hero img {
   width: 100%;
   height: 100%;
@@ -41,13 +50,17 @@
     font-size: 1.2rem;
     letter-spacing: 2px;
 }
+.hero-text .hide{
+  display: none;
+}
 @media screen and (max-width:555px) {
     .hero-text h1{
-          font-size: 2.2rem;
+          font-size: 2.5rem;
         padding: 10px 20px;
     }
     .hero-text p{
         font-size: 1.1rem;
+        font-family: cursive;
         padding: 0 0 2rem 0;
     }
     .hero-text .show{
