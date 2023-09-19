@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
 import Hero from '../Hero';
+import Footer from '../Footer';
 
 
 function About() {
@@ -13,6 +14,7 @@ function About() {
                 title='About'
                 btnClass='hide'
             />
+            <Footer />
         </div>
     )
 }

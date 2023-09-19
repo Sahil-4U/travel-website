@@ -3,6 +3,7 @@ import Navbar from '../navbar/Navbar'
 import Hero from '../Hero'
 import Destination from '../Destination'
 import Trip from '../Trip'
+import Footer from '../Footer'
 
 function Home() {
     return (
@@ -43,6 +44,7 @@ function Home() {
                 mainHeading='Recent Trips'
                 mainText='You can discover unique destinations using Google Maps.'
             />
+            <Footer />
         </>
     )
 }
