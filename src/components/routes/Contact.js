@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../navbar/Navbar';
 import Hero from '../Hero';
 import Footer from '../Footer';
+import ContactForm from '../ContactForm';
 
 
 function Contact() {
@@ -14,6 +15,7 @@ function Contact() {
                 title='Contact'
                 btnClass='hide'
             />
+            <ContactForm />
             <Footer />
         </div>
     )

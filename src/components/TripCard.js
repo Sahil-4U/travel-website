@@ -5,7 +5,9 @@ function TripCard(props) {
     return (
         <div className='t-card'>
             <div className='tc-img'>
-                <img src={props.imgsrc} alt='image-here' />
+                <img src={props.imgsrc} alt=''
+                    loading='lazy'
+                />
             </div>
             <h4>
                 {props.cardHeading}
