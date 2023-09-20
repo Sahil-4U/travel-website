@@ -40,10 +40,7 @@ function Home() {
                 image2src='https://images.unsplash.com/photo-1590667046100-2e0fd9a5b31b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80'
                 image2alt='valley image'
             />
-            <Trip
-                mainHeading='Recent Trips'
-                mainText='You can discover unique destinations using Google Maps.'
-            />
+            <Trip />
             <Footer />
         </>
     )

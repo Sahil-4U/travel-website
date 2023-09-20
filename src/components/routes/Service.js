@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../navbar/Navbar';
 import Hero from '../Hero';
 import Footer from '../Footer';
+import Trip from '../Trip';
 
 
 function Service() {
@@ -14,6 +15,7 @@ function Service() {
                 title='Services'
                 btnClass='hide'
             />
+            <Trip />
             <Footer />
         </div>
     )
