@@ -1,10 +1,16 @@
 import React, { useState } from 'react';
 import './navbarStyles.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import MenuItems from './MenuItems';
 
 function Navbar() {
+    const navigate = useNavigate();
     const [toggle, setToggle] = useState(false);
+
+
+    const handleSingupClick = () => {
+        navigate('/singup');
+    }
     return (
         <nav className='navbar-items'>
             <h1 className='navbar-logo'>Mushafir</h1>
@@ -25,7 +31,7 @@ function Navbar() {
                         </li>
                     ))
                 }
-                <button>
+                <button onClick={handleSingupClick}>
                     Sing up
                 </button>
             </ul>
@@ -33,4 +39,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar;

@@ -4,6 +4,8 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import Service from './Service';
+import Singup from './Singup';
+import Login from './Login';
 
 function Ports() {
     return (
@@ -12,8 +14,10 @@ function Ports() {
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/service' element={<Service />} />
+            <Route path='/singup' element={<Singup />} />
+            <Route path='/login' element={<Login />} />
         </Routes>
     )
 }
 
-export default Ports
+export default Ports;

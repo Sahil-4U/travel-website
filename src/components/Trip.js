@@ -32,4 +32,4 @@ function Trip(props) {
     )
 }
 
-export default Trip
+export default Trip;
