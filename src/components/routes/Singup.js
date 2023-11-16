@@ -23,7 +23,7 @@ function Singup() {
                         <input type='password' placeholder='password' required />
                     </div>
                     <div className='singup-button'>
-                        <button type='button'>
+                        <button type='button'  >
                             Submit
                         </button>
                     </div>
