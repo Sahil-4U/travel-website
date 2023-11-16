@@ -17,6 +17,9 @@ function Login() {
                     <input type="text" class="login-input" placeholder="Username" required />
                     <input type="password" class="login-input" placeholder="Password" required />
                     <button type="submit" class="login-button">Login</button>
+                    <div className='btn'>
+                        Login
+                    </div>
                 </form>
                 <div className="signup-link">
                     Don't have an account? <Link to={'/singup'}>Singup</Link>
