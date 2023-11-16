@@ -26,6 +26,9 @@ function Singup() {
                         <button type='button'  >
                             Submit
                         </button>
+                        <div className='btn'>
+                            Submit
+                        </div>
                     </div>
 
                     <div className='singup-login'>
